@@ -169,9 +169,9 @@ void defineTests() {
           boilerplate(
             Markdown(
               data: data,
-              onTapLink: (text, value, title) {
+              onTapLink: ({text, href, title}) {
                 tapTexts.add(text);
-                tapResults.add(value);
+                tapResults.add(href);
               },
             ),
           ),
@@ -199,9 +199,9 @@ void defineTests() {
           boilerplate(
             Markdown(
               data: data,
-              onTapLink: (text, value, title) {
+              onTapLink: ({text, href, title}) {
                 tapTexts.add(text);
-                tapResults.add(value);
+                tapResults.add(href);
               },
             ),
           ),
@@ -248,9 +248,9 @@ void defineTests() {
           boilerplate(
             Markdown(
               data: data,
-              onTapLink: (text, value, title) {
+              onTapLink: ({text, href, title}) {
                 tapTexts.add(text);
-                tapResults.add(value);
+                tapResults.add(href);
               },
             ),
           ),

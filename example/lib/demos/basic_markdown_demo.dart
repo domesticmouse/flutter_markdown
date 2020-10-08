@@ -97,7 +97,7 @@ class _BasicMarkdownDemoState extends State<BasicMarkdownDemo> {
                   data: snapshot.data,
                   imageDirectory: 'https://raw.githubusercontent.com',
                   extensionSet: _extensionSet.value,
-                  onTapLink: (text, href, title) =>
+                  onTapLink: ({text, href, title}) =>
                       linkOnTapHandler(context, text, href, title),
                 ),
               ),

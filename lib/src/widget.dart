@@ -19,7 +19,7 @@ import 'style_sheet.dart';
 /// Markdown link tag in the document.
 ///
 /// Used by [MarkdownWidget.onTapLink].
-typedef void MarkdownTapLinkCallback(String text, String href, String title);
+typedef void MarkdownTapLinkCallback({String text, String href, String title});
 
 /// Signature for custom image widget.
 ///
@@ -252,7 +252,7 @@ class _MarkdownWidgetState extends State<MarkdownWidget>
     final TapGestureRecognizer recognizer = TapGestureRecognizer()
       ..onTap = () {
         if (widget.onTapLink != null) {
-          widget.onTapLink(text, href, title);
+          widget.onTapLink(text: text, href: href, title: title);
         }
       };
     _recognizers.add(recognizer);

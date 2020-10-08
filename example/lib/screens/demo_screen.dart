@@ -163,7 +163,7 @@ class DemoNotesView extends StatelessWidget {
           return Markdown(
             data: snapshot.data,
             extensionSet: MarkdownExtensionSet.githubFlavored.value,
-            onTapLink: (text, href, title) =>
+            onTapLink: ({text, href, title}) =>
                 linkOnTapHandler(context, text, href, title),
           );
         } else {

@@ -21,7 +21,7 @@ void defineTests() {
           boilerplate(
             Markdown(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults.add(MarkdownLink(text, href, title)),
             ),
           ),
@@ -63,7 +63,7 @@ void defineTests() {
           boilerplate(
             Markdown(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults.add(MarkdownLink(text, href, title)),
             ),
           ),
@@ -105,7 +105,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -126,7 +126,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -147,7 +147,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -168,7 +168,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -189,7 +189,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -211,7 +211,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -235,7 +235,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -257,7 +257,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -279,7 +279,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -300,7 +300,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -326,7 +326,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -348,7 +348,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -369,7 +369,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -390,7 +390,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -414,7 +414,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -435,7 +435,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -460,7 +460,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -482,7 +482,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -505,7 +505,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -528,7 +528,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -549,7 +549,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -570,7 +570,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -591,7 +591,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -612,7 +612,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -633,7 +633,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -654,7 +654,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -679,7 +679,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -701,7 +701,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -723,7 +723,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -745,7 +745,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -766,7 +766,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -788,7 +788,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -809,7 +809,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -831,7 +831,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -858,7 +858,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -879,7 +879,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults.add(MarkdownLink(text, href, title)),
             ),
           ),
@@ -928,7 +928,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -956,7 +956,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -986,7 +986,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1030,7 +1030,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1058,7 +1058,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1089,7 +1089,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1135,7 +1135,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1157,7 +1157,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1191,7 +1191,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1225,7 +1225,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1246,7 +1246,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1267,7 +1267,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1291,7 +1291,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1347,7 +1347,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1375,7 +1375,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1409,7 +1409,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1453,7 +1453,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1484,7 +1484,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1514,7 +1514,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1536,7 +1536,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1571,7 +1571,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1604,7 +1604,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1625,7 +1625,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1652,7 +1652,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1681,7 +1681,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1702,7 +1702,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1731,7 +1731,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1760,7 +1760,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1781,7 +1781,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1806,7 +1806,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1841,7 +1841,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1875,7 +1875,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1909,7 +1909,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1930,7 +1930,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1954,7 +1954,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -1988,7 +1988,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2022,7 +2022,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2043,7 +2043,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2088,7 +2088,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2109,7 +2109,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2150,7 +2150,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2171,7 +2171,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2216,7 +2216,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2261,7 +2261,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2290,7 +2290,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2311,7 +2311,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2340,7 +2340,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2365,7 +2365,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2396,7 +2396,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2417,7 +2417,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2438,7 +2438,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2459,7 +2459,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2488,7 +2488,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2517,7 +2517,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
@@ -2545,7 +2545,7 @@ void defineTests() {
           boilerplate(
             MarkdownBody(
               data: data,
-              onTapLink: (text, href, title) =>
+              onTapLink: ({text, href, title}) =>
                   linkTapResults = MarkdownLink(text, href, title),
             ),
           ),
